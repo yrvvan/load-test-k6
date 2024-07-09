@@ -29,4 +29,5 @@ $ npm run test
 ```
 2. Test run will generate `summary.json` file
 3. And will create `report.html` file![image](https://github.com/yrvvan/load-test-k6/assets/5118370/ef4cf198-9431-4c8e-9bb5-5545120982cf)
+**Notes***: Test run considered as `Failed` because more than 95% having duration more than 500ms `p(95)<500`
 
