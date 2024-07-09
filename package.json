@@ -1,0 +1,12 @@
+{
+  "name": "k6",
+  "version": "1.0.0",
+  "description": "Load test using K6.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "k6 run index.js && node report-generator.js"
+  },
+  "dependencies": {
+    "k6-html-reporter": "^1.0.5"
+  }
+}
